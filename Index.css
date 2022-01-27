@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url(./images/background.svg);
+  background: linear-gradient(146deg, rgba(233,177,121,1) 0%, rgba(223,78,138,1) 50%, rgba(101,76,110,1) 100%);
   background-size: cover;
   background-repeat: repeat-y;
   height: auto;
