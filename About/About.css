@@ -265,7 +265,7 @@ footer {
   .About-me {
     height: 350px;
     background-color: #f5f5f5;
-    padding: 30px 0px 0px 00px;
+    padding: 30px 0px 0px 10px;
   }
   .About-me img {
     float: right;
@@ -344,7 +344,7 @@ footer {
     font-size: 8px !important;
   }
   .box2 img {
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     right:0px;
     float: right;
