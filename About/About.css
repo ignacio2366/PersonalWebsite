@@ -344,12 +344,12 @@ footer {
     font-size: 8px !important;
   }
   .box2 img {
-    position: absolute;
-    bottom: 200px;
-    right:10px;
+    position: fixed;
+    bottom: 0px;
+    right:0px;
     float: right;
     width: auto;
-    height: 50px;
+    height: 100px;
   }
 
 

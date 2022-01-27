@@ -260,7 +260,7 @@ footer {
     max-width: 412px;
     min-width: 412px;
     padding: 0;
-    margin: auto;
+    margin: 0;
     border-right: 1px solid #f5f5f5;
 
     top: 55px;
