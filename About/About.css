@@ -8,9 +8,8 @@
 }
 
 body {
-  background: linear-gradient(146deg, rgba(233,177,121,1) 0%, rgba(223,78,138,1) 50%, rgba(101,76,110,1) 100%);
-  background-size: cover;
-  background-repeat: repeat;
+  background: radial-gradient(circle, rgba(233,177,121,1) 0%, rgba(223,78,138,1) 100%);
+  background-repeat: initial;
   margin: 5px;
 }
 
@@ -18,7 +17,7 @@ body {
   position: relative;
   width: 100%;
   height: 10px;
-}
+}s
 .nav h1 {
   position: relative;
   float: left;
@@ -69,6 +68,7 @@ nav {
   max-width: 1500px;
   max-height: 1900px;
   min-width: 1500px;
+  background: linear-gradient(146deg, rgba(233,177,121,1) 0%, rgba(223,78,138,1) 50%, rgba(101,76,110,1) 100%);
 
   padding: 0;
   margin: auto;
