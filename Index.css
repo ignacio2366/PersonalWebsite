@@ -115,10 +115,11 @@ header img {
   height: 36px;
   background-color: none;
 }
+.popover{
+  background-color: #6c757d !important;
 
-.popover .data-content {
-  background-color: #0000;
 }
+
 
 /* Sections */
 
@@ -257,7 +258,7 @@ footer {
     height: 198vh;
 
     max-width: 412px;
-    min-width: 0;
+    min-width: 412px;
     padding: 0;
     margin: auto;
     border-right: 1px solid #f5f5f5;
@@ -362,8 +363,8 @@ footer {
     padding: 7% 0px 0px 10px;
     background: linear-gradient(
         to right,
-        rgba(233, 177, 121, 0.1),
-        rgba(233, 177, 121, 0.219)
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.1)
       ),
       url(./images/Ui.svg); /* The least supported option. */
 
