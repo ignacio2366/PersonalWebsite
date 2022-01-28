@@ -1,22 +1,211 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="Skills.css" />
+    <title>Skills.</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="nav">
+      <h1 class="float-left">{MAFI}</h1>
+      <nav class="">
+        <ul class="float-right">
+          <span
+            style="font-size: 1.5rem; cursor: pointer"
+            id="Hamburger"
+            onclick="openNav()"
+            >&#9776; open</span
+          >
 
+          <li><a href="../About/About.html">About</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../Skills/Skills.html">Skills</a></li>
+          <li><a href="../Porfolio/Portfolio.html">Portfolio</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="overlay-content">
+        <h5>Hi! Let me join to your team!</h5>
+        <a href="../About.html">| About</a>
+        <a href="../index.html">| Home</a>
+        <a href="../Skills/Skills.html">| Skills</a>
+        <a href="../Porfolio/Portfolio.html">| Portfolio</a>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <header>
+        <h1 class="display-1">Skills.</h1>
+        <h2 class="display-1">
+          Design, Debug, Development <br />
+          Maintain & Communicate
+        </h2>
+        <img src="../images/Logo3.svg" alt="" />
+      </header>
+
+      <section>
+        <div class="box">
+          <h4>| Front-End Development</h4>
+          <div class="row">
+            <li> HTML</li>
+            <li> CSS (Css3, Bootstrap, SASS , Tailwind, Bulma)</li>
+            <li> Javascript (DOM, jQuery, Express JS, <del>REACT</del> )</li>
+            <li> WordPress</li>
+            <li>Git</li>
+          </div>
+        </div>
+
+        <div class="box">
+          <h4>| Back-End Development</h4>
+          <div class="row">
+            <li> PHP Native (<del>No Frameworks</del>)</li>
+            <li> ASP.NET MVC Core</li>
+            <li> C# Web Development</li>
+            <li> Java (Programming Language)</li>
+          </div>
+        </div>
+        <div class="box">
+          <h4>| Database Development</h4>
+          <div class="row">
+            <li> MySQl</li>
+            <li> Sql Server</li>
+            <li> SQL</li>
+            <li> XAMPP and CPanel</li>
+           
+          </div>
+          <h4>| Web Host</h4>
+          <div class="row">
+            <li> Infinity FreeHost</li>
+            <li> GitHub</li>
+            <li>SmartASPNET</li>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="box p-lg-5">
+          <h4>| Ux/Ui Designed</h4>
+          <div class="row">
+            <li> Adobe XD</li>
+            <li> Figma</li>
+            <li> Photoshop</li>
+            <li> Illustrator</li>
+            <li> InDesign</li>
+            <li> Filmora</li>
+            <li> Google Fonts</li>
+            <li> Canvas</li>
+            <li>Grammarly</li>
+          </div>
+        </div>
+        <div class="box">
+          <h4>| Other Relevant Skills</h4>
+          <div class="row">
+            <li>English Literated</li>
+            <li>Can turn Web Template into Website</li>
+            <li>Can do Manual System Testing</li>
+            <li>WORK FROM HOME READY</li>
+            <li>Willing for Night Shift Duty</li>
+            <br>
+
+          </div>
+        </div>
+      </section>
+
+      <div class="card-deck mt-5">
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="../images/cetificates/1.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">| NC3- JAVA Programming grade 97%</h5>
+            <p class="card-text">
+              Advance level of programming in Java, With Hands-on and
+              assessment.
+            </p>
+            <p class="card-footer">
+              <small class="">TESDA Joysis Tech-Voc Inc. </small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="../images/cetificates/CERTIFICATE-IGNACIO-_Page_1.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">| LVL II - Web Development Rank 5#</h5>
+            <p class="card-text">
+              Intesive Training from in Web Developing as a Government Scholar
+            </p>
+            <p class="card-footer">
+              <small class="">TESDA RVN Tech-Voc Inc. </small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            class="card-img-top"
+            src="../images/cetificates/MARK ANGELO F. IGNACIO.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">| Front-End Web Development</h5>
+            <p class="card-text">
+              Intesive Training from Bayan Academy for the Front End
+              Development.
+            </p>
+            <p class="card-footer">
+              <small class="">BPI Foundation & Bayan Academy</small>
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
   </body>
 </html>
