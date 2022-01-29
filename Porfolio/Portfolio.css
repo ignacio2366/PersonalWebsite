@@ -180,7 +180,7 @@ footer {
 
   .container-fluid {
     position: relative;
-    height: 200vh;
+    height: auto;
 
     max-width: 412px;
     min-width: 0px;
@@ -191,9 +191,19 @@ footer {
     top: 55px;
   }
   .card {
-    background-color: #707070;
+    background-color: rgba(233, 177, 121, 1) ;
     text-align: justify;
     margin: 5px;
     box-shadow: 0px 0px 0px #707070;
+  }
+
+
+  .card:nth-child(even) {
+    background-color: rgb(255, 92, 214);
+
+  }
+  .card:nth-child(even) h5, .card:nth-child(even) p, .card:nth-child(even) small{
+    color:#ffffff!important;
+    font-weight: normal;
   }
 }
