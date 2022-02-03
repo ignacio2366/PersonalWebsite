@@ -240,7 +240,7 @@ footer {
 
   .container-fluid {
     position: relative;
-    height: 200vh;
+    height: auto;
 
     max-width: 412px;
     min-width: 0px;
@@ -345,7 +345,7 @@ footer {
   }
   .box2 img {
     position: absolute;
-    bottom: 0px;
+    bottom: 37px;
     right:0px;
     float: right;
     width: auto;
