@@ -68,7 +68,7 @@ nav {
 
 .container-fluid {
   position: relative;
-  height: 198vh;
+  height: auto;
 
   max-width: 1550px;
   min-width: 1510px;
