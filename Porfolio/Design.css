@@ -83,15 +83,15 @@ nav {
 }
 
 header {
-  height: 60vh;
+  height: 75vh;
   background-color: #57f8c1;
 }
 
 header img {
-  height: 250px;
+  height: 350px;
   width: auto;
-  margin: 25px;
-  border: 10px solid #ffffff;
+  margin: 5px 25px;
+  border: 5px solid #ffffff;
 }
 main {
   height: auto;
@@ -201,20 +201,33 @@ footer {
     border-top: 0px;
     top: 55px;
   }
-  .card {
-    background-color: rgba(233, 177, 121, 1);
-    text-align: justify;
+  header {
+    height: 75vh;
+    background-color: #57f8c1;
+  }
+  
+  header img {
+    height: 185px;
+    width: auto;
+    margin: 5px 25px;
+    border: 5px solid #ffffff;
+  }
+  main {
+    height: auto;
+    margin-top: 20px;
+    background-color: #f85757;
+    padding: 50px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  main img {
+    flex: 1;
+    height: 180px !important;
+    width: auto;
     margin: 5px;
-    box-shadow: 0px 0px 0px #707070;
-  }
-
-  .card:nth-child(even) {
-    background-color: rgb(255, 92, 214);
-  }
-  .card:nth-child(even) h5,
-  .card:nth-child(even) p,
-  .card:nth-child(even) small {
-    color: #ffffff !important;
-    font-weight: normal;
+    border: 8px solid white;
   }
 }
