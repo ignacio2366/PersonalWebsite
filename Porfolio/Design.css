@@ -203,7 +203,7 @@ footer {
   }
   header {
     height: 75vh;
-    background-color: #57f8c1;
+    background-color: #b8b8b8;
   }
   
   header img {
@@ -219,7 +219,7 @@ footer {
   main {
     height: auto;
     margin-top: 20px;
-    background-color: #f85757;
+    background-color: #838383;
     padding: 50px;
   
     display: flex;
