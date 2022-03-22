@@ -93,7 +93,12 @@ header img {
   width: auto;
   height: 275px;
 }
+.ME{
+  width:80%;
 
+  height: auto;
+  margin: 0 150px;
+}
 .Welcome-Greet {
   height: 250px;
   background-color: rgba(78, 78, 78, 0.9);
@@ -279,6 +284,13 @@ footer {
     z-index: 1;
     width: auto;
     height: 125px;
+  }
+  
+  .ME{
+    width:100%;
+  
+    height: auto;
+    margin: 0 0px;
   }
 
   .Welcome-Greet {
