@@ -1,172 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="Index.css" />
-    <link rel="icon" href="/images/person1.png">
-    <title>Welcome</title>
-  </head>
-  <body>
-    <div class="nav">
-      <h1 class="float-left">{MAFI}</h1>
-      <nav class="">
-        <ul class="float-right">
-          <span
-            style="font-size: 1.5rem; cursor: pointer"
-            id="Hamburger"
-            onclick="openNav()"
-            >&#9776; open</span
-          >
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-          <li><a href="/PersonalWebsite/About/About.html">About</a></li>
-          <li><a href="/PersonalWebsite/index.html">Home</a></li>
-          <li><a href="/PersonalWebsite/Skills/Skills.html">Skills</a></li>
-          <li><a href="/PersonalWebsite/Porfolio/Portfolio.html">Portfolio</a></li>
-        </ul>
-      </nav>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="Index.css" />
+  <link rel="icon" href="/images/person1.png">
+  <title>Welcome</title>
+</head>
+
+<body>
+  <div class="nav">
+    <h1 class="float-left">{MAFI}</h1>
+    <nav class="">
+      <ul class="float-right">
+        <span style="font-size: 1.5rem; cursor: pointer" id="Hamburger" onclick="openNav()">&#9776; open</span>
+
+        <li><a href="/PersonalWebsite/About/About.html">About</a></li>
+        <li><a href="/PersonalWebsite/index.html">Home</a></li>
+        <li><a href="/PersonalWebsite/Skills/Skills.html">Skills</a></li>
+        <li><a href="/PersonalWebsite/Porfolio/Portfolio.html">Portfolio</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <h5>Hi! Let me join to your team!</h5>
+      <a href="/PersonalWebsite/About/About.html">| About</a>
+      <a href="/PersonalWebsite/index.html">| Home</a>
+      <a href="/PersonalWebsite/Skills/Skills.html">| Skills</a>
+      <a href="/PersonalWebsite/Porfolio/Portfolio.html">| Portfolio</a>
     </div>
-    <div id="myNav" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-        >&times;</a
-        
-      >
-      <div class="overlay-content">
-        <h5>Hi! Let me join to your team!</h5>
-        <a href="/PersonalWebsite/About/About.html">| About</a>
-        <a href="/PersonalWebsite/index.html">| Home</a>
-        <a href="/PersonalWebsite/Skills/Skills.html">| Skills</a>
-        <a href="/PersonalWebsite/Porfolio/Portfolio.html">| Portfolio</a>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <br />
-      <header>
-        
-        <div class="Welcome-Greet">
-          <h1 class="display-4">Welcome Aboard Visitor !</h1>
-          <h2 class="display-6">
-            I'm Mark Angelo and please take a look at my website to know me more
-          </h2>
-          <img src="./images/Logo1.svg" id="Logo1" alt="" />
-        </div>
-        <div class="contacts">
-          <li>
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-container="body"
-              data-toggle="popover"
-              data-placement="bottom"
-              data-content="https://www.facebook.com/angelo.ignacio.7186/
-        "
-            >
-              <img src="./images/facebook.svg" alt="" />
-            </button>
-          </li>
-          <li>
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-container="body"
-              data-toggle="popover"
-              data-placement="bottom"
-              data-content="markangeloignacio001@gmail.com
-     "
-            >
-              <img src="./images/Gmail.svg" alt="" />
-            </button>
-          </li>
-          <li>
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-container="body"
-              data-toggle="popover"
-              data-placement="bottom"
-              data-title=""
-              data-content="github.com/ignacio2366
-      "
-            >
-              <img src="./images/Git.svg" alt="" />
-            </button>
-          </li>
-        </div>
+  </div>
+  <div class="container-fluid">
+    <br />
+    <header>
 
-      </header>
-                    <img class="ME" src="/images/cover.png" alt="">
-
-
-      <section style="height: 288px">
-        <h3>Good and Suitable in the position of</h3>
-        <h2>
-          Web,System, and CMS Developer <br />Software Engineer and UI/UX
-          Designer
+      <div class="Welcome-Greet">
+        <h1 class="display-4">Welcome Aboard Visitor !</h1>
+        <h2 class="display-6">
+          I'm Mark Angelo and please take a look at my website to know me more
         </h2>
-      </section>
-      <section>
-        <h1><span>Web</span> |Development</h1>
-        <a href="/PersonalWebsite/Porfolio/Portfolio.html">View More</a>
-      </section>
+        <img src="./images/Logo1.svg" id="Logo1" alt="" />
+      </div>
+      <div class="contacts">
+        <li>
+          <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+            data-placement="bottom" data-content="https://www.facebook.com/angelo.ignacio.7186/
+        ">
+            <img src="./images/facebook.svg" alt="" />
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+            data-placement="bottom" data-content="markangeloignacio001@gmail.com
+     ">
+            <img src="./images/Gmail.svg" alt="" />
+          </button>
+        </li>
+        <li>
+          <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover"
+            data-placement="bottom" data-title="" data-content="github.com/ignacio2366
+      ">
+            <img src="./images/Git.svg" alt="" />
+          </button>
+        </li>
+      </div>
 
-      <section>
-        <h1 class=""><span>UX/UI</span> |Designed</h1>
-        <a href="/PersonalWebsite/Porfolio/Design.html">View More</a>
-      </section>
+    </header>
 
-      <section>
-        <h1 class=""><span>System</span> |Development</h1>
-        <a href="">View More</a>
-        
-      </section>
-      <footer>
-        <small>Visitor</small>
-        <a href='https://dissertation-writingservice.com/'>professional Writing Service</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=fec5b0e4540f5db0afe789494c202553d5d1dabe'></script>
-        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/918126/t/5"></script>
-      </footer>
-    </div>
+    <section>
+      <img src="/images/cover.png" alt="">
+    </section>
+    
+    <section style="height: 288px">
+      <h3>Good and Suitable in the position of</h3>
+      <h2>
+        Web,System, and CMS Developer <br />Software Engineer and UI/UX
+        Designer
+      </h2>
+    </section>
+    <section>
+      <h1><span>Web</span> |Development</h1>
+      <a href="/PersonalWebsite/Porfolio/Portfolio.html">View More</a>
+    </section>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+    <section>
+      <h1 class=""><span>UX/UI</span> |Designed</h1>
+      <a href="/PersonalWebsite/Porfolio/Design.html">View More</a>
+    </section>
 
-    <script>
-      function openNav() {
-        document.getElementById("myNav").style.width = "100%";
-      }
+    <section>
+      <h1 class=""><span>System</span> |Development</h1>
+      <a href="">View More</a>
 
-      function closeNav() {
-        document.getElementById("myNav").style.width = "0%";
-      }
-      $(function () {
-        $('[data-toggle="popover"]').popover();
-      });
-    </script>
-  </body>
+    </section>
+    <footer>
+      <small>Visitor</small>
+      <a href='https://dissertation-writingservice.com/'>professional Writing Service</a>
+      <script type='text/javascript'
+        src='https://www.freevisitorcounters.com/auth.php?id=fec5b0e4540f5db0afe789494c202553d5d1dabe'></script>
+      <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/918126/t/5"></script>
+    </footer>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    $(function () {
+      $('[data-toggle="popover"]').popover();
+    });
+  </script>
+</body>
+
 </html>
