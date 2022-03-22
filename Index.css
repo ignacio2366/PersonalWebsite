@@ -136,14 +136,14 @@ section a {
 section:nth-child(3) {
   background-color: #4e4e4e;
   margin-bottom: 10px;
-  padding:25px;
+  padding:px;
 }
 
 section:nth-child(3) img {
   width: 75%;
   position: relative;
   height: auto;
-  margin: 0px 210px;
+  margin: 0px 0px 0px 170px;
   background-color: #4e4e4e;
 }
 section:nth-child(4) {
