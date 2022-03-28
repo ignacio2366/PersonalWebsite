@@ -67,9 +67,8 @@ nav {
 
 .container-fluid {
   position: relative;
-  height: 310vh;
+  height: auto;
   max-width: 1500px;
-  max-height: 2500px;
   min-width: 1500px;
 
   padding: 5px;
@@ -254,7 +253,7 @@ footer {
     font-size: 25px !important;
   }
   section {
-    height: 900px;
+    height: auto;
     background-color: rgba(78, 78, 78, 0.85);
     margin-top: 20px;
     display: flex;
@@ -277,10 +276,10 @@ footer {
 
   .box {
     flex: 0.5;
-    height: 450px;
+    height: 950px;
     margin-top: 15px;
     padding: 20px;
-    border: 1px solid white
+    overflow: auto
   }
   .card img {
     width: auto;
